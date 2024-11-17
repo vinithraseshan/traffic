@@ -28,7 +28,7 @@ confidence = 1-alpha
 st.header("Predicting Traffic Volume..")
 
 st.sidebar.image('traffic_sidebar.jpg')
-st.sidebar.markdown("**Input Featurest**")
+st.sidebar.markdown("**Input Features**")
 st.sidebar.write("You can either upload your data file or manually enter features")
 
 
