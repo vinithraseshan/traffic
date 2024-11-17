@@ -90,6 +90,7 @@ if model == 'Decision Tree':
     with tab1:
         st.write("### Feature Importance")
         st.image('dtimp.svg')
+        
         st.caption("Relative importance of features in prediction.")
     with tab2:
         st.write("### Classification Report")
