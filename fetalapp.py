@@ -93,7 +93,7 @@ if model == 'Decision Tree':
         st.caption("Relative importance of features in prediction.")
     with tab2:
         st.write("### Classification Report")
-        st.dataframe(pd.read_csv('dt_report.csv'))
+        st.dataframe(pd.read_csv('df_report.csv'))
     with tab3:
         st.write("Confusion Matrix")
         st.image('dtcm.svg')
